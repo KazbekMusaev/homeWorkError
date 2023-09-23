@@ -7,43 +7,43 @@
 
 import Foundation
 
-print("Home Work-Version2")
+//Функция определяющая четность числа
+func parity (value : Int){
+    if value % 2 == 0 {
+        print ("Число \(value) четное")
+    } else {
+        print("Число \(value) не четное")
+    }
+}
+parity(value: 4)
 
-// Создаем 4 константы : Процентную ставку за год, Начальный вклад и время по которому данный вклад будет действовать
+//Функция определяющая делимость на 3
+func divisibiliy (value : Int){
+    if value % 3 == 0{
+        print("Число \(value) делится на 3 без остатка")
+    } else {
+        print("Число \(value) делится на 3 с остатком")
+    }
+}
+divisibiliy(value: 6)
 
-let clientName : String = "Артем"
-let bankRate: Double = 5
-let deposit: Double = 1000
-let oneYear: Double = 365
+//Создаем возрастающий массив из 100 чисел
+var riseMassiv: [Int] = Array(1...100)
 
-// Формула расчета только процента по вкладу за 5 лет
+//Удаляем из массива четные и числа делящиеся на 3
 
-func formulaBank (year : Double) {
-    var summInterest : Double = (deposit * bankRate * year * oneYear / 365) / 100
-    print("За \(year) лет, клиент \(clientName) по вкладу получит \(summInterest), общая сумма вклада составит \(summInterest+deposit)")
+for index in (0..<riseMassiv.count).reversed(){
+    if riseMassiv[index] % 2 == 0 || riseMassiv[index] % 3 == 0 {
+        riseMassiv.remove(at: index)
+    }
 }
 
-formulaBank(year: 5)
-//
-//var formulaFirstYear: Double = deposit + (deposit/100*bankRate)
-//var rateIn1Years : Double = formulaFirstYear - deposit
-//var formulaSecondYear: Double = formulaFirstYear + (formulaFirstYear/100*bankRate)
-//var rateIn2Years : Double = formulaSecondYear - deposit
-//var formulaThirdYear: Double = formulaSecondYear + (formulaSecondYear/100*bankRate)
-//var rateIn3Years : Double = formulaThirdYear - deposit
-//var formulaFourthYear: Double = formulaThirdYear + (formulaThirdYear/100*bankRate)
-//var rateIn4Years : Double = formulaFourthYear - deposit
-//var formulaFifthYear: Double = formulaFourthYear + (formulaFourthYear/100*bankRate)
-//var rateIn5Years : Double = formulaFourthYear - deposit
-//
-//
-//print("""
-//      Клиент \(clientName) вложил \(deposit)р в СберБанк под \(bankRate) % годовых
-//      В первый год он получит \(formulaFirstYear)p, из них \(formulaFirstYear - deposit)р будут проценты по вкладу
-//      Во второй год \(formulaSecondYear)p, из них \(formulaSecondYear - deposit)р будут проценты по вкладу за 2 года
-//      В третий год \(formulaThirdYear)p, из них \(formulaThirdYear - deposit)р будут проценты по вкладу за 3 года
-//      В четвертый год \(NSString(format:"%.2f", formulaFourthYear))p, из них \(NSString(format:"%.2f", rateIn4Years))р будут проценты по вкладу за 4 года
-//      В пятый год \(NSString(format:"%.2f", formulaFifthYear))p, из них \(NSString(format:"%.2f", rateIn5Years))р будут проценты по вкладу за 5 лет
-//      """
-//)
+//Добавляем 50 чисел фибоначи
+func fibonachi (f : Int) -> Int {
+    if f <= 2 { return 1 }
+    else {
+        return fibonachi(f: f - 1) + fibonachi(f: f - 2)
+    }
+}
 
+print(fibonachi(f: 3))
