@@ -68,7 +68,7 @@ func fibonachi (f : Int) -> Int {
 //}
 
 //Создать калькулятор
-func calculate (value1: Int, operand: String, value2: Int) {
+func calculate (value1: Int, operand: Character, value2: Int) {
     if operand == "+"{
         print(value1 + value2)
     } else if operand == "-" {
@@ -91,12 +91,14 @@ func stringRangeMeter (string: String){
 
 // Функция которая определяет максимальные числа из 3
 func searchMaxNumber (value1: Int, value2: Int, value3: Int){
-    if value1 > value2 || value1 > value3{
-        print("Value one is BIGGER")
-    } else if value2 > value1 || value2 > value3{
-        print("Value two is BIGGER")
-    } else {
-        print("Value three is BIGGER")
+    if value1 > value2 && value1 > value3 {
+        print("Value1 Is Bigger")
+    } else if value2 > value1 && value2 > value3 {
+        print("Value2 is Bigger")
+    } else if value3 > value1 && value3 > value2 {
+        print("Value3 is Bigger")
+    } else if value1 == value2 || value1 == value3 || value2 == value3 {
+        print("We don't have ONE Bigger Value")
     }
 }
 
@@ -105,22 +107,19 @@ func searchMaxNumber (value1: Int, value2: Int, value3: Int){
 func timeConvers (sec: Int){
     var minute: Int
     var hour: Int
-    if sec >= 86400 {
-      print("Исправьте ваши часы!")
-    } else if sec < 60 {
-        print("00h:00m:\(sec)s")
+    if sec < 60 {
+        print("We have \(sec) secund")
     } else if sec < 3600 {
         minute = sec / 60
-        print("00h:\(minute)m:\(sec - minute * 60)s")
+        print("We have \(minute) minutes and \(sec-minute*60) secund ")
     } else {
         minute = sec / 60
         if minute >= 60 {
             hour = minute / 60
-            print("\(hour)h:\(minute - hour * 60)m:\(sec - minute * 60)s")
+            print("We have \(hour) hour, \(minute - hour * 60) minutes and \(sec - minute * 60) secund")
         }
     }
 }
-
 
 
 // Функция подсчета количества слов в строке
@@ -167,17 +166,15 @@ func renameString (string: String) {
 
 
 // Функция которая выведит каждое слово через определенный интервал времени.
-// Получилось сделать только так, чтобы каждый символ выводился с новой строки
 
 func timeMeter (string: String) {
-    let word = string.split(separator: " ")
     for i in string {
         if i != " " {
-            print(i)
+            print(i, terminator: "")
         } else {
+            print(" ")
             sleep(2)
         }
     }
 }
 
-timeMeter(string: "Hello Maga")
