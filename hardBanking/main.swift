@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import Dispatch
 
 //Функция определяющая четность числа
 func parity (value : Int){
@@ -36,6 +37,21 @@ for index in (0..<riseMassiv.count).reversed(){
     }
 }
 
+// Факториал числа N
+func factorial (n : Int) -> Int {
+    var firstValue: Int = 1
+    var secondValue: Int = 1
+    var result: Int = 1
+    if n < 1 {
+        return n
+    }
+    for _ in 0...n {
+        result = firstValue * secondValue
+        firstValue = result
+        secondValue += 1
+    }
+    return result
+}
 
 //Написали формулу фибоначи
 func fibonachi (f : Int) -> Int {
@@ -44,6 +60,7 @@ func fibonachi (f : Int) -> Int {
         return fibonachi(f: f - 1) + fibonachi(f: f - 2)
     }
 }
+
 
 //Добавляем формулу в цикл и добавляем эти значения в массив
 //for i in 0...50 {
@@ -90,9 +107,9 @@ func timeConvers (sec: Int){
     var hour: Int
     if sec >= 86400 {
       print("Исправьте ваши часы!")
-    } else if sec <= 60 {
+    } else if sec < 60 {
         print("00h:00m:\(sec)s")
-    } else if sec <= 3600 {
+    } else if sec < 3600 {
         minute = sec / 60
         print("00h:\(minute)m:\(sec - minute * 60)s")
     } else {
@@ -104,6 +121,8 @@ func timeConvers (sec: Int){
     }
 }
 
+
+
 // Функция подсчета количества слов в строке
 func wordMetter(string: String){
     let word = string.split(separator: " ")
@@ -112,13 +131,53 @@ func wordMetter(string: String){
  
 
 // Функция которая выводит каждое слово в новой строке
+func newLine (string: String){
+    for index in string {
+        if index == " "{
+            print("\n")
+        } else {
+            print(index, terminator: "")
+        }
+    }
+}
 
-// Функция которая выведит каждое слово через определенный интервал времени.
 
 // Функция которая выведет количество слов в введенной строке
+func howManyWord (string: String){
+    var newWordMeter : Int = 1
+    for index in string {
+        if index == " "{
+            print(index, terminator: " ")
+            newWordMeter += 1
+        } else {
+            print(index, terminator: "")
+        }
+    }
+    print("\nВ строке : \(string) у нас \(newWordMeter) слов")
+}
+
 
 // Реверс строки
 func renameString (string: String) {
+    for index in string.reversed() {
+        print(index, terminator: "")
+    }
+    
 }
 
-renameString(string: "Hello")
+
+// Функция которая выведит каждое слово через определенный интервал времени.
+// Получилось сделать только так, чтобы каждый символ выводился с новой строки
+
+func timeMeter (string: String) {
+    let word = string.split(separator: " ")
+    for i in string {
+        if i != " " {
+            print(i)
+        } else {
+            sleep(2)
+        }
+    }
+}
+
+timeMeter(string: "Hello Maga")
