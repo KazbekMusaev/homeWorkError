@@ -45,13 +45,15 @@ func factorial (n : Int) -> Int {
     if n < 1 {
         return n
     }
-    for _ in 0...n {
+    for _ in 1...n {
         result = firstValue * secondValue
         firstValue = result
         secondValue += 1
     }
     return result
 }
+
+print(factorial(n: 5))
 
 //Написали формулу фибоначи
 func fibonachi (f : Int) -> Int {
