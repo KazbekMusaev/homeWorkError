@@ -219,3 +219,137 @@ func summary() -> Int? {
 //Требования:
 //Создайте функцию encode, которая принимает строку и возвращает зашифрованную строку, заменяя a на z, b на y, c на x и так далее.
 //Создайте функцию decode, которая принимает зашифрованную строку и возвращает исходную строку, производя обратную замену.
+//Наш шифроватор будет менять значение
+//a -> z , b -> y, c -> x, d -> w, e -> v, f -> u, g -> t, h -> s, i -> r, j -> q, k -> p, l -> o, m - > n, n - > 1, o -> 2, p - > 3, q -> 4, r -> 5, s -> 6, t -> 7, u -> 8, v -> 9, w -> _, x -> *, y -> &, z -> #, " " -> $
+//Только не используйте здесь заглавные буквы )))))
+func encode (_ string: String) -> String {
+    var invis = String()
+    for index in string {
+        switch index {
+        case "a":
+            invis += "z"
+        case "b":
+            invis += "y"
+        case "c":
+            invis += "x"
+        case "d":
+            invis += "w"
+        case "e":
+            invis += "v"
+        case "f":
+            invis += "u"
+        case "g":
+            invis += "t"
+        case "h":
+            invis += "s"
+        case "i":
+            invis += "r"
+        case "j":
+            invis += "q"
+        case "k":
+            invis += "p"
+        case "l":
+            invis += "0"
+        case "m":
+            invis += "n"
+        case "n":
+            invis += "1"
+        case "o":
+            invis += "2"
+        case "p":
+            invis += "3"
+        case "q":
+            invis += "4"
+        case "r":
+            invis += "5"
+        case "s":
+            invis += "6"
+        case "t":
+            invis += "7"
+        case "u":
+            invis += "8"
+        case "v":
+            invis += "9"
+        case "w":
+            invis += "_"
+        case "x":
+            invis += "*"
+        case "y":
+            invis += "&"
+        case "z":
+            invis += "#"
+        case " ":
+            invis += "$"
+        default :
+            print("Can you speak human leanguage?")
+        }
+    }
+    return invis
+}
+
+
+func decode(_ string: String) -> String {
+    var visibl = String()
+    for index in string {
+        switch index {
+        case "z":
+            visibl += "a"
+        case "y":
+            visibl += "b"
+        case "x":
+            visibl += "c"
+        case "w":
+            visibl += "d"
+        case "v":
+            visibl += "e"
+        case "u":
+            visibl += "f"
+        case "t":
+            visibl += "g"
+        case "s":
+            visibl += "h"
+        case "r":
+            visibl += "i"
+        case "q":
+            visibl += "j"
+        case "p":
+            visibl += "k"
+        case "0":
+            visibl += "l"
+        case "n":
+            visibl += "m"
+        case "1":
+            visibl += "n"
+        case "2":
+            visibl += "o"
+        case "3":
+            visibl += "p"
+        case "4":
+            visibl += "q"
+        case "5":
+            visibl += "r"
+        case "6":
+            visibl += "s"
+        case "7":
+            visibl += "t"
+        case "8":
+            visibl += "u"
+        case "9":
+            visibl += "v"
+        case "_":
+            visibl += "w"
+        case "*":
+            visibl += "x"
+        case "&":
+            visibl += "y"
+        case "#":
+            visibl += "z"
+        case "$":
+            visibl += " "
+        default :
+            print("Can you speak human leanguage?")
+        }
+    }
+    return visibl
+}
+
