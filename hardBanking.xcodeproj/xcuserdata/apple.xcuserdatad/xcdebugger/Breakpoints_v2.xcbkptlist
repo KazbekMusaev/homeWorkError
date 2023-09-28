@@ -14,13 +14,13 @@
             filePath = "hardBanking/main.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "338"
-            endingLineNumber = "338"
-            landmarkName = "encode(_:)"
-            landmarkType = "9">
+            startingLineNumber = "334"
+            endingLineNumber = "334"
+            landmarkName = "unknown"
+            landmarkType = "0">
             <Locations>
                <Location
-                  uuid = "6F3E1BCE-64BE-4333-8669-D7B6684A3884 - e35d7858cf4954c7"
+                  uuid = "6F3E1BCE-64BE-4333-8669-D7B6684A3884 - e35d7858cf49480a"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -30,12 +30,12 @@
                   urlString = "file:///Users/apple/Desktop/hardBanking/hardBanking/main.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "294"
-                  endingLineNumber = "294"
+                  startingLineNumber = "331"
+                  endingLineNumber = "331"
                   offsetFromSymbolStart = "84">
                </Location>
                <Location
-                  uuid = "6F3E1BCE-64BE-4333-8669-D7B6684A3884 - e35d7858cf4954e4"
+                  uuid = "6F3E1BCE-64BE-4333-8669-D7B6684A3884 - e35d7858cf494bcc"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -45,203 +45,8 @@
                   urlString = "file:///Users/apple/Desktop/hardBanking/hardBanking/main.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "293"
-                  endingLineNumber = "293"
-                  offsetFromSymbolStart = "84">
-               </Location>
-               <Location
-                  uuid = "6F3E1BCE-64BE-4333-8669-D7B6684A3884 - e35d7858cf4954a6"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "hardBanking.encode(Swift.String) -&gt; Swift.String"
-                  moduleName = "hardBanking"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/apple/Desktop/hardBanking/hardBanking/main.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "295"
-                  endingLineNumber = "295"
-                  offsetFromSymbolStart = "84">
-               </Location>
-               <Location
-                  uuid = "6F3E1BCE-64BE-4333-8669-D7B6684A3884 - e35d7858cf49544b"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "hardBanking.encode(Swift.String) -&gt; Swift.String"
-                  moduleName = "hardBanking"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/apple/Desktop/hardBanking/hardBanking/main.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "298"
-                  endingLineNumber = "298"
-                  offsetFromSymbolStart = "84">
-               </Location>
-               <Location
-                  uuid = "6F3E1BCE-64BE-4333-8669-D7B6684A3884 - e35d7858cf49540d"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "hardBanking.encode(Swift.String) -&gt; Swift.String"
-                  moduleName = "hardBanking"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/apple/Desktop/hardBanking/hardBanking/main.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "300"
-                  endingLineNumber = "300"
-                  offsetFromSymbolStart = "84">
-               </Location>
-               <Location
-                  uuid = "6F3E1BCE-64BE-4333-8669-D7B6684A3884 - e35d7858cf495468"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "hardBanking.encode(Swift.String) -&gt; Swift.String"
-                  moduleName = "hardBanking"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/apple/Desktop/hardBanking/hardBanking/main.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "297"
-                  endingLineNumber = "297"
-                  offsetFromSymbolStart = "84">
-               </Location>
-               <Location
-                  uuid = "6F3E1BCE-64BE-4333-8669-D7B6684A3884 - e35d7858cf495732"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "hardBanking.encode(Swift.String) -&gt; Swift.String"
-                  moduleName = "hardBanking"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/apple/Desktop/hardBanking/hardBanking/main.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "307"
-                  endingLineNumber = "307"
-                  offsetFromSymbolStart = "84">
-               </Location>
-               <Location
-                  uuid = "6F3E1BCE-64BE-4333-8669-D7B6684A3884 - e35d7858cf4956f4"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "hardBanking.encode(Swift.String) -&gt; Swift.String"
-                  moduleName = "hardBanking"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/apple/Desktop/hardBanking/hardBanking/main.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "309"
-                  endingLineNumber = "309"
-                  offsetFromSymbolStart = "84">
-               </Location>
-               <Location
-                  uuid = "6F3E1BCE-64BE-4333-8669-D7B6684A3884 - e35d7858cf495715"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "hardBanking.encode(Swift.String) -&gt; Swift.String"
-                  moduleName = "hardBanking"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/apple/Desktop/hardBanking/hardBanking/main.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "308"
-                  endingLineNumber = "308"
-                  offsetFromSymbolStart = "84">
-               </Location>
-               <Location
-                  uuid = "6F3E1BCE-64BE-4333-8669-D7B6684A3884 - e35d7858cf49565b"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "hardBanking.encode(Swift.String) -&gt; Swift.String"
-                  moduleName = "hardBanking"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/apple/Desktop/hardBanking/hardBanking/main.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "314"
-                  endingLineNumber = "314"
-                  offsetFromSymbolStart = "84">
-               </Location>
-               <Location
-                  uuid = "6F3E1BCE-64BE-4333-8669-D7B6684A3884 - e35d7858cf495678"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "hardBanking.encode(Swift.String) -&gt; Swift.String"
-                  moduleName = "hardBanking"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/apple/Desktop/hardBanking/hardBanking/main.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "313"
-                  endingLineNumber = "313"
-                  offsetFromSymbolStart = "84">
-               </Location>
-               <Location
-                  uuid = "6F3E1BCE-64BE-4333-8669-D7B6684A3884 - e35d7858cf4956b6"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "hardBanking.encode(Swift.String) -&gt; Swift.String"
-                  moduleName = "hardBanking"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/apple/Desktop/hardBanking/hardBanking/main.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "311"
-                  endingLineNumber = "311"
-                  offsetFromSymbolStart = "84">
-               </Location>
-               <Location
-                  uuid = "6F3E1BCE-64BE-4333-8669-D7B6684A3884 - e35d7858cf4956d7"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "hardBanking.encode(Swift.String) -&gt; Swift.String"
-                  moduleName = "hardBanking"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/apple/Desktop/hardBanking/hardBanking/main.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "310"
-                  endingLineNumber = "310"
-                  offsetFromSymbolStart = "84">
-               </Location>
-               <Location
-                  uuid = "6F3E1BCE-64BE-4333-8669-D7B6684A3884 - e35d7858cf495699"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "hardBanking.encode(Swift.String) -&gt; Swift.String"
-                  moduleName = "hardBanking"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/apple/Desktop/hardBanking/hardBanking/main.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "312"
-                  endingLineNumber = "312"
-                  offsetFromSymbolStart = "84">
-               </Location>
-               <Location
-                  uuid = "6F3E1BCE-64BE-4333-8669-D7B6684A3884 - e35d7858cf4948c4"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "hardBanking.encode(Swift.String) -&gt; Swift.String"
-                  moduleName = "hardBanking"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/apple/Desktop/hardBanking/hardBanking/main.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "325"
-                  endingLineNumber = "325"
+                  startingLineNumber = "333"
+                  endingLineNumber = "333"
                   offsetFromSymbolStart = "84">
                </Location>
                <Location
@@ -260,7 +65,7 @@
                   offsetFromSymbolStart = "84">
                </Location>
                <Location
-                  uuid = "6F3E1BCE-64BE-4333-8669-D7B6684A3884 - e35d7858cf494886"
+                  uuid = "6F3E1BCE-64BE-4333-8669-D7B6684A3884 - e35d7858cf494baf"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -270,12 +75,12 @@
                   urlString = "file:///Users/apple/Desktop/hardBanking/hardBanking/main.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "327"
-                  endingLineNumber = "327"
+                  startingLineNumber = "334"
+                  endingLineNumber = "334"
                   offsetFromSymbolStart = "84">
                </Location>
                <Location
-                  uuid = "6F3E1BCE-64BE-4333-8669-D7B6684A3884 - e35d7858cf494848"
+                  uuid = "6F3E1BCE-64BE-4333-8669-D7B6684A3884 - e35d7858cf494b71"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -285,12 +90,12 @@
                   urlString = "file:///Users/apple/Desktop/hardBanking/hardBanking/main.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "329"
-                  endingLineNumber = "329"
+                  startingLineNumber = "336"
+                  endingLineNumber = "336"
                   offsetFromSymbolStart = "84">
                </Location>
                <Location
-                  uuid = "6F3E1BCE-64BE-4333-8669-D7B6684A3884 - e35d7858cf494869"
+                  uuid = "6F3E1BCE-64BE-4333-8669-D7B6684A3884 - e35d7858cf494b50"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -300,53 +105,8 @@
                   urlString = "file:///Users/apple/Desktop/hardBanking/hardBanking/main.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "328"
-                  endingLineNumber = "328"
-                  offsetFromSymbolStart = "84">
-               </Location>
-               <Location
-                  uuid = "6F3E1BCE-64BE-4333-8669-D7B6684A3884 - e35d7858cf4948a7"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "hardBanking.encode(Swift.String) -&gt; Swift.String"
-                  moduleName = "hardBanking"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/apple/Desktop/hardBanking/hardBanking/main.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "326"
-                  endingLineNumber = "326"
-                  offsetFromSymbolStart = "84">
-               </Location>
-               <Location
-                  uuid = "6F3E1BCE-64BE-4333-8669-D7B6684A3884 - e35d7858cf494940"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "hardBanking.encode(Swift.String) -&gt; Swift.String"
-                  moduleName = "hardBanking"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/apple/Desktop/hardBanking/hardBanking/main.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "321"
-                  endingLineNumber = "321"
-                  offsetFromSymbolStart = "84">
-               </Location>
-               <Location
-                  uuid = "6F3E1BCE-64BE-4333-8669-D7B6684A3884 - e35d7858cf4949df"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "hardBanking.encode(Swift.String) -&gt; Swift.String"
-                  moduleName = "hardBanking"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/apple/Desktop/hardBanking/hardBanking/main.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "318"
-                  endingLineNumber = "318"
+                  startingLineNumber = "337"
+                  endingLineNumber = "337"
                   offsetFromSymbolStart = "84">
                </Location>
                <Location
@@ -365,7 +125,7 @@
                   offsetFromSymbolStart = "84">
                </Location>
                <Location
-                  uuid = "6F3E1BCE-64BE-4333-8669-D7B6684A3884 - e35d7858cf494b8e"
+                  uuid = "6F3E1BCE-64BE-4333-8669-D7B6684A3884 - e35d7858cf494a79"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -375,53 +135,8 @@
                   urlString = "file:///Users/apple/Desktop/hardBanking/hardBanking/main.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "335"
-                  endingLineNumber = "335"
-                  offsetFromSymbolStart = "84">
-               </Location>
-               <Location
-                  uuid = "6F3E1BCE-64BE-4333-8669-D7B6684A3884 - e35d7858cf494b12"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "hardBanking.encode(Swift.String) -&gt; Swift.String"
-                  moduleName = "hardBanking"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/apple/Desktop/hardBanking/hardBanking/main.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "339"
-                  endingLineNumber = "339"
-                  offsetFromSymbolStart = "84">
-               </Location>
-               <Location
-                  uuid = "6F3E1BCE-64BE-4333-8669-D7B6684A3884 - e35d7858cf494ab7"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "hardBanking.encode(Swift.String) -&gt; Swift.String"
-                  moduleName = "hardBanking"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/apple/Desktop/hardBanking/hardBanking/main.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "342"
-                  endingLineNumber = "342"
-                  offsetFromSymbolStart = "84">
-               </Location>
-               <Location
-                  uuid = "6F3E1BCE-64BE-4333-8669-D7B6684A3884 - e35d7858cf494a58"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "hardBanking.encode(Swift.String) -&gt; Swift.String"
-                  moduleName = "hardBanking"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/apple/Desktop/hardBanking/hardBanking/main.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "345"
-                  endingLineNumber = "345"
+                  startingLineNumber = "344"
+                  endingLineNumber = "344"
                   offsetFromSymbolStart = "84">
                </Location>
                <Location
@@ -440,7 +155,7 @@
                   offsetFromSymbolStart = "84">
                </Location>
                <Location
-                  uuid = "6F3E1BCE-64BE-4333-8669-D7B6684A3884 - e35d7858cf494a79"
+                  uuid = "6F3E1BCE-64BE-4333-8669-D7B6684A3884 - e35d7858cf4949be"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -450,23 +165,8 @@
                   urlString = "file:///Users/apple/Desktop/hardBanking/hardBanking/main.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "344"
-                  endingLineNumber = "344"
-                  offsetFromSymbolStart = "84">
-               </Location>
-               <Location
-                  uuid = "6F3E1BCE-64BE-4333-8669-D7B6684A3884 - e35d7858cf494a3b"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "hardBanking.encode(Swift.String) -&gt; Swift.String"
-                  moduleName = "hardBanking"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/apple/Desktop/hardBanking/hardBanking/main.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "346"
-                  endingLineNumber = "346"
+                  startingLineNumber = "319"
+                  endingLineNumber = "319"
                   offsetFromSymbolStart = "84">
                </Location>
                <Location
@@ -485,7 +185,7 @@
                   offsetFromSymbolStart = "84">
                </Location>
                <Location
-                  uuid = "6F3E1BCE-64BE-4333-8669-D7B6684A3884 - e35d7858cf494dbf"
+                  uuid = "6F3E1BCE-64BE-4333-8669-D7B6684A3884 - e35d7858cf494a3b"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -495,23 +195,8 @@
                   urlString = "file:///Users/apple/Desktop/hardBanking/hardBanking/main.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "350"
-                  endingLineNumber = "350"
-                  offsetFromSymbolStart = "84">
-               </Location>
-               <Location
-                  uuid = "6F3E1BCE-64BE-4333-8669-D7B6684A3884 - e35d7858cf494a1a"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "hardBanking.encode(Swift.String) -&gt; Swift.String"
-                  moduleName = "hardBanking"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/apple/Desktop/hardBanking/hardBanking/main.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "347"
-                  endingLineNumber = "347"
+                  startingLineNumber = "346"
+                  endingLineNumber = "346"
                   offsetFromSymbolStart = "84">
                </Location>
                <Location
@@ -529,6 +214,21 @@
                   endingLineNumber = "340"
                   offsetFromSymbolStart = "84">
                </Location>
+               <Location
+                  uuid = "6F3E1BCE-64BE-4333-8669-D7B6684A3884 - e35d7858cf494b8e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "hardBanking.encode(Swift.String) -&gt; Swift.String"
+                  moduleName = "hardBanking"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple/Desktop/hardBanking/hardBanking/main.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "335"
+                  endingLineNumber = "335"
+                  offsetFromSymbolStart = "84">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
@@ -542,8 +242,8 @@
             filePath = "hardBanking/main.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "339"
-            endingLineNumber = "339"
+            startingLineNumber = "335"
+            endingLineNumber = "335"
             landmarkName = "encode(_:)"
             landmarkType = "9">
          </BreakpointContent>
@@ -558,13 +258,13 @@
             filePath = "hardBanking/main.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "340"
-            endingLineNumber = "340"
+            startingLineNumber = "336"
+            endingLineNumber = "336"
             landmarkName = "encode(_:)"
             landmarkType = "9">
             <Locations>
                <Location
-                  uuid = "DAC83F22-EF29-4995-8F05-7CDAD0A8C61F - e35d7858cf495489"
+                  uuid = "DAC83F22-EF29-4995-8F05-7CDAD0A8C61F - e35d7858cf494bed"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -574,12 +274,12 @@
                   urlString = "file:///Users/apple/Desktop/hardBanking/hardBanking/main.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "296"
-                  endingLineNumber = "296"
+                  startingLineNumber = "332"
+                  endingLineNumber = "332"
                   offsetFromSymbolStart = "104">
                </Location>
                <Location
-                  uuid = "DAC83F22-EF29-4995-8F05-7CDAD0A8C61F - e35d7858cf495715"
+                  uuid = "DAC83F22-EF29-4995-8F05-7CDAD0A8C61F - e35d7858cf494baf"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -589,143 +289,8 @@
                   urlString = "file:///Users/apple/Desktop/hardBanking/hardBanking/main.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "308"
-                  endingLineNumber = "308"
-                  offsetFromSymbolStart = "104">
-               </Location>
-               <Location
-                  uuid = "DAC83F22-EF29-4995-8F05-7CDAD0A8C61F - e35d7858cf4956d7"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "hardBanking.encode(Swift.String) -&gt; Swift.String"
-                  moduleName = "hardBanking"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/apple/Desktop/hardBanking/hardBanking/main.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "310"
-                  endingLineNumber = "310"
-                  offsetFromSymbolStart = "104">
-               </Location>
-               <Location
-                  uuid = "DAC83F22-EF29-4995-8F05-7CDAD0A8C61F - e35d7858cf4956d7"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "hardBanking.encode(Swift.String) -&gt; Swift.String"
-                  moduleName = "hardBanking"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/apple/Desktop/hardBanking/hardBanking/main.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "310"
-                  endingLineNumber = "310"
-                  offsetFromSymbolStart = "216">
-               </Location>
-               <Location
-                  uuid = "DAC83F22-EF29-4995-8F05-7CDAD0A8C61F - e35d7858cf49563a"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "hardBanking.encode(Swift.String) -&gt; Swift.String"
-                  moduleName = "hardBanking"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/apple/Desktop/hardBanking/hardBanking/main.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "315"
-                  endingLineNumber = "315"
-                  offsetFromSymbolStart = "104">
-               </Location>
-               <Location
-                  uuid = "DAC83F22-EF29-4995-8F05-7CDAD0A8C61F - e35d7858cf49565b"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "hardBanking.encode(Swift.String) -&gt; Swift.String"
-                  moduleName = "hardBanking"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/apple/Desktop/hardBanking/hardBanking/main.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "314"
-                  endingLineNumber = "314"
-                  offsetFromSymbolStart = "104">
-               </Location>
-               <Location
-                  uuid = "DAC83F22-EF29-4995-8F05-7CDAD0A8C61F - e35d7858cf4956f4"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "hardBanking.encode(Swift.String) -&gt; Swift.String"
-                  moduleName = "hardBanking"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/apple/Desktop/hardBanking/hardBanking/main.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "309"
-                  endingLineNumber = "309"
-                  offsetFromSymbolStart = "104">
-               </Location>
-               <Location
-                  uuid = "DAC83F22-EF29-4995-8F05-7CDAD0A8C61F - e35d7858cf495699"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "hardBanking.encode(Swift.String) -&gt; Swift.String"
-                  moduleName = "hardBanking"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/apple/Desktop/hardBanking/hardBanking/main.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "312"
-                  endingLineNumber = "312"
-                  offsetFromSymbolStart = "104">
-               </Location>
-               <Location
-                  uuid = "DAC83F22-EF29-4995-8F05-7CDAD0A8C61F - e35d7858cf4956b6"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "hardBanking.encode(Swift.String) -&gt; Swift.String"
-                  moduleName = "hardBanking"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/apple/Desktop/hardBanking/hardBanking/main.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "311"
-                  endingLineNumber = "311"
-                  offsetFromSymbolStart = "104">
-               </Location>
-               <Location
-                  uuid = "DAC83F22-EF29-4995-8F05-7CDAD0A8C61F - e35d7858cf495678"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "hardBanking.encode(Swift.String) -&gt; Swift.String"
-                  moduleName = "hardBanking"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/apple/Desktop/hardBanking/hardBanking/main.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "313"
-                  endingLineNumber = "313"
-                  offsetFromSymbolStart = "104">
-               </Location>
-               <Location
-                  uuid = "DAC83F22-EF29-4995-8F05-7CDAD0A8C61F - e35d7858cf4948a7"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "hardBanking.encode(Swift.String) -&gt; Swift.String"
-                  moduleName = "hardBanking"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/apple/Desktop/hardBanking/hardBanking/main.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "326"
-                  endingLineNumber = "326"
+                  startingLineNumber = "334"
+                  endingLineNumber = "334"
                   offsetFromSymbolStart = "104">
                </Location>
                <Location
@@ -744,7 +309,7 @@
                   offsetFromSymbolStart = "104">
                </Location>
                <Location
-                  uuid = "DAC83F22-EF29-4995-8F05-7CDAD0A8C61F - e35d7858cf494869"
+                  uuid = "DAC83F22-EF29-4995-8F05-7CDAD0A8C61F - e35d7858cf494b8e"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -754,12 +319,12 @@
                   urlString = "file:///Users/apple/Desktop/hardBanking/hardBanking/main.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "328"
-                  endingLineNumber = "328"
+                  startingLineNumber = "335"
+                  endingLineNumber = "335"
                   offsetFromSymbolStart = "104">
                </Location>
                <Location
-                  uuid = "DAC83F22-EF29-4995-8F05-7CDAD0A8C61F - e35d7858cf49482b"
+                  uuid = "DAC83F22-EF29-4995-8F05-7CDAD0A8C61F - e35d7858cf494b50"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -769,12 +334,12 @@
                   urlString = "file:///Users/apple/Desktop/hardBanking/hardBanking/main.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "330"
-                  endingLineNumber = "330"
+                  startingLineNumber = "337"
+                  endingLineNumber = "337"
                   offsetFromSymbolStart = "104">
                </Location>
                <Location
-                  uuid = "DAC83F22-EF29-4995-8F05-7CDAD0A8C61F - e35d7858cf494848"
+                  uuid = "DAC83F22-EF29-4995-8F05-7CDAD0A8C61F - e35d7858cf494b33"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -784,53 +349,8 @@
                   urlString = "file:///Users/apple/Desktop/hardBanking/hardBanking/main.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "329"
-                  endingLineNumber = "329"
-                  offsetFromSymbolStart = "104">
-               </Location>
-               <Location
-                  uuid = "DAC83F22-EF29-4995-8F05-7CDAD0A8C61F - e35d7858cf494886"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "hardBanking.encode(Swift.String) -&gt; Swift.String"
-                  moduleName = "hardBanking"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/apple/Desktop/hardBanking/hardBanking/main.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "327"
-                  endingLineNumber = "327"
-                  offsetFromSymbolStart = "104">
-               </Location>
-               <Location
-                  uuid = "DAC83F22-EF29-4995-8F05-7CDAD0A8C61F - e35d7858cf494923"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "hardBanking.encode(Swift.String) -&gt; Swift.String"
-                  moduleName = "hardBanking"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/apple/Desktop/hardBanking/hardBanking/main.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "322"
-                  endingLineNumber = "322"
-                  offsetFromSymbolStart = "104">
-               </Location>
-               <Location
-                  uuid = "DAC83F22-EF29-4995-8F05-7CDAD0A8C61F - e35d7858cf4949be"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "hardBanking.encode(Swift.String) -&gt; Swift.String"
-                  moduleName = "hardBanking"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/apple/Desktop/hardBanking/hardBanking/main.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "319"
-                  endingLineNumber = "319"
+                  startingLineNumber = "338"
+                  endingLineNumber = "338"
                   offsetFromSymbolStart = "104">
                </Location>
                <Location
@@ -849,7 +369,7 @@
                   offsetFromSymbolStart = "104">
                </Location>
                <Location
-                  uuid = "DAC83F22-EF29-4995-8F05-7CDAD0A8C61F - e35d7858cf494b71"
+                  uuid = "DAC83F22-EF29-4995-8F05-7CDAD0A8C61F - e35d7858cf494a58"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -859,53 +379,8 @@
                   urlString = "file:///Users/apple/Desktop/hardBanking/hardBanking/main.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "336"
-                  endingLineNumber = "336"
-                  offsetFromSymbolStart = "104">
-               </Location>
-               <Location
-                  uuid = "DAC83F22-EF29-4995-8F05-7CDAD0A8C61F - e35d7858cf494af5"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "hardBanking.encode(Swift.String) -&gt; Swift.String"
-                  moduleName = "hardBanking"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/apple/Desktop/hardBanking/hardBanking/main.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "340"
-                  endingLineNumber = "340"
-                  offsetFromSymbolStart = "104">
-               </Location>
-               <Location
-                  uuid = "DAC83F22-EF29-4995-8F05-7CDAD0A8C61F - e35d7858cf494a96"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "hardBanking.encode(Swift.String) -&gt; Swift.String"
-                  moduleName = "hardBanking"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/apple/Desktop/hardBanking/hardBanking/main.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "343"
-                  endingLineNumber = "343"
-                  offsetFromSymbolStart = "104">
-               </Location>
-               <Location
-                  uuid = "DAC83F22-EF29-4995-8F05-7CDAD0A8C61F - e35d7858cf494a3b"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "hardBanking.encode(Swift.String) -&gt; Swift.String"
-                  moduleName = "hardBanking"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/apple/Desktop/hardBanking/hardBanking/main.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "346"
-                  endingLineNumber = "346"
+                  startingLineNumber = "345"
+                  endingLineNumber = "345"
                   offsetFromSymbolStart = "104">
                </Location>
                <Location
@@ -924,7 +399,7 @@
                   offsetFromSymbolStart = "104">
                </Location>
                <Location
-                  uuid = "DAC83F22-EF29-4995-8F05-7CDAD0A8C61F - e35d7858cf494a58"
+                  uuid = "DAC83F22-EF29-4995-8F05-7CDAD0A8C61F - e35d7858cf494961"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -934,23 +409,8 @@
                   urlString = "file:///Users/apple/Desktop/hardBanking/hardBanking/main.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "345"
-                  endingLineNumber = "345"
-                  offsetFromSymbolStart = "104">
-               </Location>
-               <Location
-                  uuid = "DAC83F22-EF29-4995-8F05-7CDAD0A8C61F - e35d7858cf494a1a"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "hardBanking.encode(Swift.String) -&gt; Swift.String"
-                  moduleName = "hardBanking"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/apple/Desktop/hardBanking/hardBanking/main.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "347"
-                  endingLineNumber = "347"
+                  startingLineNumber = "320"
+                  endingLineNumber = "320"
                   offsetFromSymbolStart = "104">
                </Location>
                <Location
@@ -969,7 +429,7 @@
                   offsetFromSymbolStart = "104">
                </Location>
                <Location
-                  uuid = "DAC83F22-EF29-4995-8F05-7CDAD0A8C61F - e35d7858cf494d9e"
+                  uuid = "DAC83F22-EF29-4995-8F05-7CDAD0A8C61F - e35d7858cf494a1a"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -979,23 +439,8 @@
                   urlString = "file:///Users/apple/Desktop/hardBanking/hardBanking/main.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "351"
-                  endingLineNumber = "351"
-                  offsetFromSymbolStart = "104">
-               </Location>
-               <Location
-                  uuid = "DAC83F22-EF29-4995-8F05-7CDAD0A8C61F - e35d7858cf494dfd"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "hardBanking.encode(Swift.String) -&gt; Swift.String"
-                  moduleName = "hardBanking"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/apple/Desktop/hardBanking/hardBanking/main.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "348"
-                  endingLineNumber = "348"
+                  startingLineNumber = "347"
+                  endingLineNumber = "347"
                   offsetFromSymbolStart = "104">
                </Location>
                <Location
@@ -1013,6 +458,21 @@
                   endingLineNumber = "341"
                   offsetFromSymbolStart = "104">
                </Location>
+               <Location
+                  uuid = "DAC83F22-EF29-4995-8F05-7CDAD0A8C61F - e35d7858cf494b71"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "hardBanking.encode(Swift.String) -&gt; Swift.String"
+                  moduleName = "hardBanking"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple/Desktop/hardBanking/hardBanking/main.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "336"
+                  endingLineNumber = "336"
+                  offsetFromSymbolStart = "104">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
@@ -1026,8 +486,8 @@
             filePath = "hardBanking/main.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "336"
-            endingLineNumber = "336"
+            startingLineNumber = "332"
+            endingLineNumber = "332"
             landmarkName = "unknown"
             landmarkType = "0">
          </BreakpointContent>

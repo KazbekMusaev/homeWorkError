@@ -99,18 +99,20 @@ func rakirovka (_ array: [Int]) -> [Int] {
 
 
 //7. Форматирование первой буквы в заглавную
-//func upperFirst(_ string: String) -> String {
-//    let word = string.split(separator: " ")
-//    guard word.count > 1 else {
-//        let newWord = string
-//        print(newWord.first!.uppercased())
-//        for i in (1..<newWord.count){
-//            print(newWord[i])
-//        }
-//        return newWord
-//    }
-//    return " "
-//}
+func upperFirst(_ string: String) -> String {
+    let words = string.split(separator: " ")
+    guard words.count > 1 else { return "We have one word!" }
+    var stringFormat = String()
+        
+    for element in words {
+        let firstChar = element.prefix(1).uppercased()
+        let restoreWords = element.dropFirst()
+        stringFormat += firstChar + restoreWords + " "
+    }
+
+    
+    return stringFormat
+}
 
 //8. Принимаем день недели в строке и возращает числом
 func monday () -> Int? {
@@ -176,23 +178,16 @@ func vowels(_ string: String) -> Int {
 }
 
 //12. Проверка дубликатов в массиве и их удаление
-func dublikate(_ arrayNumb: [Int]) -> [Int] {
-    guard arrayNumb.count > 1 else { return arrayNumb }
-    var filtred = arrayNumb
-
-    for (indexOne, valueOne) in arrayNumb.enumerated() {
-        for (indexTwo, valueTwo) in arrayNumb.enumerated(){
-            if indexTwo > indexOne {
-                if valueOne == valueTwo{
-                    filtred.remove(at: indexTwo)
-                }
-            }
+func dublikateRemove(_ arrayNumb: [Int]) -> [Int] {
+    var newArray = [Int]()
+    for element in arrayNumb{
+        if !newArray.contains(element){
+            newArray.append(element)
         }
     }
-    return filtred
+    return newArray
 }
 
-//Работает не всегда
 
 
 
@@ -218,15 +213,11 @@ func summary() -> Int? {
 func moreHigh(_ string: String) -> String {
 let word = string.split(separator: " ")
     guard word.count > 1 else { return string }
-    let maxElement = word.count
-    var itIsHigh = String()
     var newArray = [String]()
     for i in word {
         newArray.append(String(i))
-        print(newArray)
     }
     for (indexOne,valueOne) in newArray.enumerated(){
-        print("\(indexOne) -> \(valueOne)")
         for (indexTwo,valueTwo) in newArray.enumerated(){
             if indexOne != indexTwo {
                 if valueOne.count > valueTwo.count {
@@ -237,6 +228,9 @@ let word = string.split(separator: " ")
     }
     return newArray[0]
 }
+
+// Работает не всегда и криво
+
 
 //15. Сокращение строки
 func ninjaString(_ string: String, _ value: Int) -> String {
@@ -259,30 +253,32 @@ func ninjaString(_ string: String, _ value: Int) -> String {
 
 
 //16. Объеденение двух массивов без дубликатов
-//func massivPlus(_ firstArray: [Int], _ secondArray: [Int]) -> [Int]{
-//    guard !firstArray.isEmpty || !secondArray.isEmpty else {
-//        return firstArray + secondArray
-//    }
-//    var oneArray = firstArray
-//    var twoArray = secondArray
-//    for i in oneArray {
-//        for j in twoArray {
-//            if i == j {
-//
-//            }
-//        }
-//    }
-//    return oneArray + twoArray
-//}
-
-//1,2,3,4,5,6,7,8,9 первый массив
-//2,3,4,5,6,7,8,9 второй массив
-//1 -> 2,3,4,5,6,7,8,9
-//... -> 2,3,4,5,6,7,8,9
-//9 -> 2,3,4,5,6,7,8,9
+func massivPlus(_ firstArray: [Int], _ secondArray: [Int]) -> [Int]{
+    guard !firstArray.isEmpty || !secondArray.isEmpty else {
+        return firstArray + secondArray
+    }
+    return dublikateRemove(firstArray+secondArray)
+}
 
 //17. Количество слов заданной длины:
 //Напишите функцию, которая принимает строку и число N, а затем возвращает количество слов в строке, длина которых равна N.
+func returnStringFromNumber (_ string: String, _ value: Int) -> [String] {
+    let word = string.split(separator: " ")
+    var words = [String]()
+    var newWordsArray = [String]()
+    
+    for element in word {
+        let new = String(element)
+        words.append(new)
+    }
+    
+    for element in words {
+        if value == element.count{
+            newWordsArray.append(element)
+        }
+    }
+    return newWordsArray
+}
 
 
 //18. Угадай число:
