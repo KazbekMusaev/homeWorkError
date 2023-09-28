@@ -178,24 +178,21 @@ func vowels(_ string: String) -> Int {
 //12. Проверка дубликатов в массиве и их удаление
 func dublikate(_ arrayNumb: [Int]) -> [Int] {
     guard arrayNumb.count > 1 else { return arrayNumb }
-    var filtred = [Int]()
-    let maxNumber = arrayNumb.count
+    var filtred = arrayNumb
 
-    for index in 0..<maxNumber-1 {
-        for value in index..<maxNumber{
-            if arrayNumb[index] != arrayNumb[value]{
-                filtred.append(index)
+    for (indexOne, valueOne) in arrayNumb.enumerated() {
+        for (indexTwo, valueTwo) in arrayNumb.enumerated(){
+            if indexTwo > indexOne {
+                if valueOne == valueTwo{
+                    filtred.remove(at: indexTwo)
+                }
             }
         }
     }
     return filtred
 }
 
-//1,2,3,4,5
-//1 -> 2,3,4,5
-//2 -> 3,4,5
-//3 -> 4,5
-//4 -> 5
+//Работает не всегда
 
 
 
@@ -278,8 +275,8 @@ func ninjaString(_ string: String, _ value: Int) -> String {
 //    return oneArray + twoArray
 //}
 
-//1,2,3,4,5,6,7,8,9
-//2,3,4,5,6,7,8,9
+//1,2,3,4,5,6,7,8,9 первый массив
+//2,3,4,5,6,7,8,9 второй массив
 //1 -> 2,3,4,5,6,7,8,9
 //... -> 2,3,4,5,6,7,8,9
 //9 -> 2,3,4,5,6,7,8,9
