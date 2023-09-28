@@ -176,6 +176,28 @@ func vowels(_ string: String) -> Int {
 }
 
 //12. Проверка дубликатов в массиве и их удаление
+func dublikate(_ arrayNumb: [Int]) -> [Int] {
+    guard arrayNumb.count > 1 else { return arrayNumb }
+    var filtred = [Int]()
+    let maxNumber = arrayNumb.count
+
+    for index in 0..<maxNumber-1 {
+        for value in index..<maxNumber{
+            if arrayNumb[index] != arrayNumb[value]{
+                filtred.append(index)
+            }
+        }
+    }
+    return filtred
+}
+
+//1,2,3,4,5
+//1 -> 2,3,4,5
+//2 -> 3,4,5
+//3 -> 4,5
+//4 -> 5
+
+
 
 //13. Сумма всех чисел до N
 func summary() -> Int? {
@@ -196,23 +218,28 @@ func summary() -> Int? {
 }
 
 //14. Длинное словоы
-//func moreHigh(_ string: String) -> String {
-//    let word = string.split(separator: " ")
-//    guard word.count > 1 else { return string }
-//    let maxElement = word.count
-//    var itIsHigh = String()
-//    for indexOne in 0..<maxElement - 1 {
-//        for indexTwo in indexOne+1..<maxElement {
-//            if word[indexOne].count > word[indexTwo].count {
-//                itIsHigh = String(word[indexOne])
-//            } else if word[indexOne].count < word[indexTwo].count {
-//                itIsHigh = String(word[indexTwo])
-//            }
-//        }
-//    }
-//    return itIsHigh
-//}
-// Эта функция не работает так, как надо
+func moreHigh(_ string: String) -> String {
+let word = string.split(separator: " ")
+    guard word.count > 1 else { return string }
+    let maxElement = word.count
+    var itIsHigh = String()
+    var newArray = [String]()
+    for i in word {
+        newArray.append(String(i))
+        print(newArray)
+    }
+    for (indexOne,valueOne) in newArray.enumerated(){
+        print("\(indexOne) -> \(valueOne)")
+        for (indexTwo,valueTwo) in newArray.enumerated(){
+            if indexOne != indexTwo {
+                if valueOne.count > valueTwo.count {
+                    newArray.remove(at: indexTwo)
+                }
+            }
+        }
+    }
+    return newArray[0]
+}
 
 //15. Сокращение строки
 func ninjaString(_ string: String, _ value: Int) -> String {
@@ -250,6 +277,12 @@ func ninjaString(_ string: String, _ value: Int) -> String {
 //    }
 //    return oneArray + twoArray
 //}
+
+//1,2,3,4,5,6,7,8,9
+//2,3,4,5,6,7,8,9
+//1 -> 2,3,4,5,6,7,8,9
+//... -> 2,3,4,5,6,7,8,9
+//9 -> 2,3,4,5,6,7,8,9
 
 //17. Количество слов заданной длины:
 //Напишите функцию, которая принимает строку и число N, а затем возвращает количество слов в строке, длина которых равна N.
