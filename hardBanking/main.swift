@@ -99,14 +99,17 @@ func rakirovka (_ array: [Int]) -> [Int] {
 
 
 //7. Форматирование первой буквы в заглавную
-//func racirovka(_ string: String) -> String {
-//    var formating = string
-//    formating.first?.uppercased()
-//    for i in formating {
-//        if i == " " {
-//            formating[i].uppercased()
+//func upperFirst(_ string: String) -> String {
+//    let word = string.split(separator: " ")
+//    guard word.count > 1 else {
+//        let newWord = string
+//        print(newWord.first!.uppercased())
+//        for i in (1..<newWord.count){
+//            print(newWord[i])
 //        }
+//        return newWord
 //    }
+//    return " "
 //}
 
 //8. Принимаем день недели в строке и возращает числом
@@ -138,9 +141,23 @@ func monday () -> Int? {
 
 //9. Уникальные символы
 //func unique(_ string: String) -> Bool {
-//    guard !string.isEmpty else { return false }
+//    guard string.count > 1 else { return true }
 //
+//    var result: Bool = false
+//    let check = string
+//    for (indexOne, valueOne) in check.enumerated() {
+//        for (indexTwo, valueTwo) in check.enumerated() {
+//            if indexOne != indexTwo {
+//                if valueOne == valueTwo {
+//                    result = false
+//                }
+//            }
+//        }
+//    }
+//    return result
 //}
+//
+//print(unique("rljlk"))
 
 
 //10. Слияние массивов
@@ -159,7 +176,7 @@ func vowels(_ string: String) -> Int {
     return checkVowels
 }
 
-//12. Проверка дубликатов в массиве
+//12. Проверка дубликатов в массиве и их удаление
 
 //13. Сумма всех чисел до N
 func summary() -> Int? {
@@ -199,22 +216,23 @@ func summary() -> Int? {
 // Эта функция не работает так, как надо
 
 //15. Сокращение строки
-//func ninjaString(_ string: String, _ value: Int) -> String {
-//    guard value < string.count else { return "Не правильный ввод" }
-//    let maxNumber = string.count
-//    let ourString = string
-//    var ninjas = String()
-//    for i in (0..<value){
-//        ninjas += "\(i)"
-//    }
-//    for _ in (value..<maxNumber) {
-//        ninjas += "."
-//    }
-//    return ninjas
-//}
-//
-//print(ninjaString("Hello my name is", 1 ))
-//Не получается вытащить один символ из строки
+func ninjaString(_ string: String, _ value: Int) -> String {
+    guard value < string.count else { return "Не правильный ввод" }
+    let maxNumber = string.count
+    var arrayString = [String]()
+    var ninjas = String()
+    for (_, char) in string.enumerated() {
+        arrayString.append(String(char))
+    }
+    for indexOne in (0..<value) {
+        ninjas += String(arrayString[indexOne])
+    }
+    for _ in (value..<maxNumber) {
+        ninjas += "."
+    }
+    print(arrayString)
+    return ninjas
+}
 
 
 //16. Объеденение двух массивов без дубликатов
