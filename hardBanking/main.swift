@@ -137,6 +137,10 @@ func monday () -> Int? {
 }
 
 //9. Уникальные символы
+//func unique(_ string: String) -> Bool {
+//    guard !string.isEmpty else { return false }
+//
+//}
 
 
 //10. Слияние массивов
@@ -175,18 +179,42 @@ func summary() -> Int? {
     return summary
 }
 
-//14. Длинное слово
+//14. Длинное словоы
+//func moreHigh(_ string: String) -> String {
+//    let word = string.split(separator: " ")
+//    guard word.count > 1 else { return string }
+//    let maxElement = word.count
+//    var itIsHigh = String()
+//    for indexOne in 0..<maxElement - 1 {
+//        for indexTwo in indexOne+1..<maxElement {
+//            if word[indexOne].count > word[indexTwo].count {
+//                itIsHigh = String(word[indexOne])
+//            } else if word[indexOne].count < word[indexTwo].count {
+//                itIsHigh = String(word[indexTwo])
+//            }
+//        }
+//    }
+//    return itIsHigh
+//}
+// Эта функция не работает так, как надо
 
 //15. Сокращение строки
 //func ninjaString(_ string: String, _ value: Int) -> String {
-//    var ninjas = string
-//    let maxNumber = ninjas.count
-//    for i in (0..<maxNumber) {
-//
+//    guard value < string.count else { return "Не правильный ввод" }
+//    let maxNumber = string.count
+//    let ourString = string
+//    var ninjas = String()
+//    for i in (0..<value){
+//        ninjas += "\(i)"
+//    }
+//    for _ in (value..<maxNumber) {
+//        ninjas += "."
 //    }
 //    return ninjas
 //}
-
+//
+//print(ninjaString("Hello my name is", 1 ))
+//Не получается вытащить один символ из строки
 
 
 //16. Объеденение двух массивов без дубликатов
@@ -212,6 +240,44 @@ func summary() -> Int? {
 
 //18. Угадай число:
 //Создайте игру, в которой компьютер случайно выбирает число между 1 и 100, а игрок пытается угадать его за минимальное количество попыток. После каждой попытки компьютер должен сообщать, была ли предыдущая догадка слишком высокой или слишком низкой.
+func gameColdFire() -> String? {
+    let randomNumber = Int.random(in: 0...100 )
+    print("Игра началась, отгадайте число от 0 до 100")
+    print("Игра не закончится, пока вы не угадаете число")
+    print("Введите ваше предположение : ")
+    
+    
+    var areYouGuess: Bool = true
+    
+    while areYouGuess {
+        print("\(randomNumber)")
+        let userInput = readLine()
+        guard let userInput = userInput else { return nil }
+        let check = Int(userInput)!
+        
+        switch check{
+        case randomNumber:
+            areYouGuess = false
+        case randomNumber-10..<randomNumber+10:
+            print("Жарко")
+        case randomNumber-30..<randomNumber-10:
+            print("Тепло")
+        case randomNumber+10..<randomNumber+30:
+            print("Тепло")
+        case randomNumber-60..<randomNumber-30:
+            print("Холодно")
+        case randomNumber+30..<randomNumber+60:
+            print("Холодно")
+        case randomNumber-100..<randomNumber-60:
+            print("IT`S COLD")
+        case randomNumber+60..<randomNumber+100:
+            print("IT`S COLD")
+        default:
+            print("Вы нарушили правила игры!!!")
+        }
+    }
+    return "Вы выиграли игру)"
+}
 
 //19. Задание: Простой шифратор и дешифратор слов с использованием замены букв
 //Описание:
