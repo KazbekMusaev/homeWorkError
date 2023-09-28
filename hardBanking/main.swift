@@ -140,24 +140,23 @@ func monday () -> Int? {
 }
 
 //9. Уникальные символы
-//func unique(_ string: String) -> Bool {
-//    guard string.count > 1 else { return true }
-//
-//    var result: Bool = false
-//    let check = string
-//    for (indexOne, valueOne) in check.enumerated() {
-//        for (indexTwo, valueTwo) in check.enumerated() {
-//            if indexOne != indexTwo {
-//                if valueOne == valueTwo {
-//                    result = false
-//                }
-//            }
-//        }
-//    }
-//    return result
-//}
-//
-//print(unique("rljlk"))
+func unique(_ string: String) -> Bool {
+    guard string.count > 1 else { return true }
+
+    var result: Bool = true
+    let check = string
+    for (indexOne, valueOne) in check.enumerated() {
+        for (indexTwo, valueTwo) in check.enumerated() {
+            if indexOne != indexTwo {
+                if valueOne == valueTwo {
+                    result = false
+                }
+            }
+        }
+    }
+    return result
+}
+
 
 
 //10. Слияние массивов

@@ -14,10 +14,10 @@
             filePath = "hardBanking/main.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "309"
-            endingLineNumber = "309"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            startingLineNumber = "308"
+            endingLineNumber = "308"
+            landmarkName = "encode(_:)"
+            landmarkType = "9">
             <Locations>
                <Location
                   uuid = "6F3E1BCE-64BE-4333-8669-D7B6684A3884 - e35d7858cf4954c7"
@@ -242,8 +242,8 @@
             filePath = "hardBanking/main.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "310"
-            endingLineNumber = "310"
+            startingLineNumber = "309"
+            endingLineNumber = "309"
             landmarkName = "encode(_:)"
             landmarkType = "9">
          </BreakpointContent>
@@ -258,8 +258,8 @@
             filePath = "hardBanking/main.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "311"
-            endingLineNumber = "311"
+            startingLineNumber = "310"
+            endingLineNumber = "310"
             landmarkName = "encode(_:)"
             landmarkType = "9">
             <Locations>
@@ -426,8 +426,8 @@
             filePath = "hardBanking/main.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "307"
-            endingLineNumber = "307"
+            startingLineNumber = "306"
+            endingLineNumber = "306"
             landmarkName = "unknown"
             landmarkType = "0">
          </BreakpointContent>
