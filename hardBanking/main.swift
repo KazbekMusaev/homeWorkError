@@ -371,10 +371,304 @@ func citiesInCountries(){
             print("\(info)")
         }
     }
-}   
+}
 
 
+//5. Нахождение общих элементов из 2 массивов
+
+func commonElement(_ firstArray: [Int], _ secondArray: [Int]) -> [Int] {
+    var firstSet = Set<Int>()
+    var secondSet = Set<Int>()
+    var resultSet = Set<Int>()
+    var resultArray = [Int]()
+    
+    for element in firstArray{
+        firstSet.insert(element)
+    }
+    for element in secondArray{
+        secondSet.insert(element)
+    }
+    
+    resultSet = firstSet.intersection(secondSet)
+    
+    for element in resultSet{
+        resultArray.append(element)
+    }
+    return resultArray
+}
 
 
+//6. Поиск общих друзей двух пользователей
 
+func commonFriends(){
+    let friendList : [String:Set<String>] = [
+        "Ваня Раскольников":["Андрей Орлов","Маша Соколова","Дмитрий Медведев"],
+        "Мухаммад":["Гасан Абдулаев","Муталибов Салим","Марат Мусаев"],
+        "Казбек":["Курбан","Александр","Гаджи","Абдулла","Ризван"],
+        "Кирил":["Маша Соколова","Марат Мусаев","Гасан Абдулаев"],
+        "Артур":["Кирил","Казбек","Андрей Орлов","Гаджи"]
+    ]
+    
+    func searchCommonFriends(nameOne: String, nameTwo: String) -> Set<String> {
+        let firstUserFriendList = friendList[nameOne] ?? Set<String>()
+        let secondUserFriendList = friendList[nameTwo] ?? Set<String>()
+        let intersectionFriends = firstUserFriendList.intersection(secondUserFriendList)
+        return intersectionFriends
+    }
+    
+    print("Добро пожаловать в поиск общих друзей🙎🏻‍♂️🙎🏻‍♀️")
+    print("Для выхода из программы введите \"Exit\"")
+     
+    while true {
+        print("Для показа количества пользователей нажмите \"1\"")
+        let userOne = readLine() ?? "Не верный ввод"
+        if userOne == "Exit" { break }
+        if userOne == "1"{
+            print("""
+                    1.Ваня Раскольников
+                    2.Мухаммад
+                    3.Казбек
+                    4.Кирил
+                    5.Артур
+                    """)
+            print("Выберите первого пользователя для нахождения общих друзей : ")
+            let userChoiceOne = readLine() ?? "Не верный ввод"
+            if userChoiceOne == "1"{
+                print("""
+                        1.Мухаммад
+                        2.Казбек
+                        3.Кирил
+                        4.Артур
+                        """)
+                print("Выберите второго пользователя для сравнения : ")
+                let userChoiceTwo = readLine() ?? "Не верный ввод"
+                switch userChoiceTwo{
+                case "1":
+                    print(searchCommonFriends(nameOne: "Ваня Раскольников", nameTwo: "Мухаммад"))
+                case "2":
+                    print(searchCommonFriends(nameOne: "Ваня Раскольников", nameTwo: "Казбек"))
+                case "3":
+                    print(searchCommonFriends(nameOne: "Ваня Раскольников", nameTwo: "Кирил"))
+                case "4":
+                    print(searchCommonFriends(nameOne: "Ваня Раскольников", nameTwo: "Артур"))
+                default:
+                    print("Error choice")
+                }
+            } else if userChoiceOne == "2"{
+                print("""
+                        1.Ваня Раскольников
+                        2.Казбек
+                        3.Кирил
+                        4.Артур
+                        """)
+                print("Выберите второго пользователя для сравнения : ")
+                let userChoiceTwo = readLine() ?? "Не верный ввод"
+                switch userChoiceTwo{
+                case "1":
+                    print(searchCommonFriends(nameOne: "Мухаммад", nameTwo: "Ваня Раскольников"))
+                case "2":
+                    print(searchCommonFriends(nameOne: "Мухаммад", nameTwo: "Казбек"))
+                case "3":
+                    print(searchCommonFriends(nameOne: "Мухаммад", nameTwo: "Кирил"))
+                case "4":
+                    print(searchCommonFriends(nameOne: "Мухаммад", nameTwo: "Артур"))
+                default:
+                    print("Error choice")
+                }
+            } else if userChoiceOne == "3"{
+                print("""
+                        1.Ваня Раскольников
+                        2.Мухаммад
+                        3.Кирил
+                        4.Артур
+                        """)
+                print("Выберите второго пользователя для сравнения : ")
+                let userChoiceTwo = readLine() ?? "Не верный ввод"
+                switch userChoiceTwo{
+                case "1":
+                    print(searchCommonFriends(nameOne: "Казбек", nameTwo: "Ваня Раскольников"))
+                case "2":
+                    print(searchCommonFriends(nameOne: "Казбек", nameTwo: "Мухаммад"))
+                case "3":
+                    print(searchCommonFriends(nameOne: "Казбек", nameTwo: "Кирил"))
+                case "4":
+                    print(searchCommonFriends(nameOne: "Казбек", nameTwo: "Артур"))
+                default:
+                    print("Error choice")
+                }
+            } else if userChoiceOne == "4"{
+                print("""
+                        1.Ваня Раскольников
+                        2.Мухаммад
+                        3.Казбек
+                        4.Артур
+                        """)
+                print("Выберите второго пользователя для сравнения : ")
+                let userChoiceTwo = readLine() ?? "Не верный ввод"
+                switch userChoiceTwo{
+                case "1":
+                    print(searchCommonFriends(nameOne: "Кирил", nameTwo: "Ваня Раскольников"))
+                case "2":
+                    print(searchCommonFriends(nameOne: "Кирил", nameTwo: "Мухаммад"))
+                case "3":
+                    print(searchCommonFriends(nameOne: "Кирил", nameTwo: "Казбек"))
+                case "4":
+                    print(searchCommonFriends(nameOne: "Кирил", nameTwo: "Артур"))
+                default:
+                    print("Error choice")
+                }
+            } else if userChoiceOne == "5"{
+                print("""
+                        1.Ваня Раскольников
+                        2.Мухаммад
+                        3.Казбек
+                        4.Кирил
+                        """)
+                print("Выберите второго пользователя для сравнения : ")
+                let userChoiceTwo = readLine() ?? "Не верный ввод"
+                switch userChoiceTwo{
+                case "1":
+                    print(searchCommonFriends(nameOne: "Артур", nameTwo: "Ваня Раскольников"))
+                case "2":
+                    print(searchCommonFriends(nameOne: "Артур", nameTwo: "Мухаммад"))
+                case "3":
+                    print(searchCommonFriends(nameOne: "Артур", nameTwo: "Казбек"))
+                case "4":
+                    print(searchCommonFriends(nameOne: "Артур", nameTwo: "Кирил"))
+                default:
+                    print("Error choice")
+                }
+            }
+        }
+    }
+}
+
+//7. Уникальный массив
+
+func uniqueElement( arrayInt:[Int] ) -> [Int] {
+    var filredSimilar = Set<Int>()
+    var filtredArray = [Int]()
+    for element in arrayInt {
+        filredSimilar.insert(element)
+    }
+    for element in filredSimilar{
+        filtredArray.append(element)
+    }
+    return filtredArray
+}
+
+//8. телефонный справочник
+
+func phoneBook(){
+    var userPhoneDictionary : [String:String] = [
+        "Казбек":"8-995-900-0****","Барак Обама":"773-365-9687","Дженифер Лопес":"305-690-0379"
+    ]
+    
+    func addNumber(userName : String, userNumber : String) {
+        userPhoneDictionary[userName] = userNumber
+    }
+    func removeNumber(userName : String){
+        userPhoneDictionary.removeValue(forKey: userName)
+    }
+    func findNumber(userName: String) -> String {
+        userPhoneDictionary[userName] ?? "Нет такого пользователя"
+    }
+    
+    print("""
+           Добро пожаловать в телефонный справочник☎️
+           """)
+    
+    while true {
+        print("""
+                1.Поиска номера по имени человека
+                2.Добавление нового контакта
+                3.Удаление контакта
+                4.Закрыть программу
+                """)
+        let userChoice = readLine() ?? "0"
+        if userChoice == "4"{
+            break
+        }
+        switch userChoice {
+        case "1":
+            print("Введите имя пользователя : ")
+            let userName = readLine() ?? "0"
+            print(findNumber(userName: userName))
+        case "2":
+            print("Введите имя : ")
+            let userName = readLine() ?? "ERROR NAME"
+            print("Введите номер телефона : ")
+            let userNumber = readLine() ?? "ERROR NUMBER"
+            addNumber(userName: userName, userNumber: userNumber)
+        case "3":
+            print("Введите имя контакта : ")
+            let deleteName = readLine() ?? "ERROR DELETE"
+            removeNumber(userName: deleteName)
+        default:
+            print("Не верный ввод")
+        }
+    }
+}
+
+//9. Тест на умножение
+
+func multiplyTest(){
+    var answerDictionary : [Int:Int] = [:]
+    
+    print("""
+           Добро пожаловать в математический тест на умножение 🧮
+           """)
+    
+    for element in 0...20{
+        let random = Int.random(in: 0...100)
+        answerDictionary[element] = random
+    }
+    
+    
+    var check = 0
+    
+    for cicle in 0...20{
+        if cicle % 2 == 0 {
+            print(answerDictionary[cicle]!)
+            print("*")
+        } else {
+            print(answerDictionary[cicle]!)
+            print("=")
+            print("Введите ответ : ")
+            let userAnswer = readLine() ?? "Error input"
+            let firstValue = answerDictionary[cicle - 1]!
+            let secondValue = answerDictionary[cicle]!
+            if userAnswer == String(firstValue * secondValue) {
+                check += 1
+            }
+        }
+    }
+    let percentTry = 100 / 10 * check
+    print("Вы ответили правильно на \(check). Что состовляет \(percentTry)% успешного выполнения теста")
+}
+
+//10. Монеты, либо монета
+func declination (){
+    var declinations : [Int:String] = [ 1 : "монета", 2 : "монеты", 3 :"монеты", 4 : "монеты"] // Без него нельзя?😂
+    
+    print("""
+           Добро пожаловать в программу для правильного склонения слова \"монета\" в зависимости от их количества 🪙
+           """)
+    
+    print("Введите количество монет : ")
+    let coin = Int(readLine() ?? "0") ?? 0
+    
+    let lastDigit = coin % 10
+    let lastTwoDigit = coin % 100
+    
+    if lastTwoDigit >= 11 && lastTwoDigit <= 14{
+        print("\(coin) монет")
+    } else if lastDigit == 1 {
+        print("\(coin) монета")
+    } else if lastDigit > 1 && lastDigit <= 4 {
+        print("\(coin)  монеты")
+    } else {
+        print("\(coin) монет")
+    }
+}
 
