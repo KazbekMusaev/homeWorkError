@@ -433,9 +433,13 @@ func startsFight(first: Fighter, second: Fighter){
                 }
                 if first.hp == 0 {
                     print("Маг победил")
+                    print("Игра закончилась")
+                    break
                 }
                 if second.hp == 0 {
                     print("Воин победил")
+                    print("Игра закончилась")
+                    break
                 }
             }
         }
@@ -458,9 +462,13 @@ func startsFight(first: Fighter, second: Fighter){
                 }
                 if first.hp == 0 {
                     print("Воин победил")
+                    print("Игра закончилась")
+                    break
                 }
                 if second.hp == 0 {
                     print("Разбойник победил")
+                    print("Игра закончилась")
+                    break
                 }
             }
         } else if second is Mag {
@@ -481,9 +489,13 @@ func startsFight(first: Fighter, second: Fighter){
                 }
                 if first.hp == 0 {
                     print("Маг победил")
+                    print("Игра закончилась")
+                    break
                 }
                 if second.hp == 0 {
                     print("Разбойник победил")
+                    print("Игра закончилась")
+                    break
                 }
             }
         }
@@ -506,9 +518,13 @@ func startsFight(first: Fighter, second: Fighter){
                 }
                 if first.hp == 0 {
                     print("Воин победил")
+                    print("Игра закончилась")
+                    break
                 }
                 if second.hp == 0 {
                     print("Маг победил")
+                    print("Игра закончилась")
+                    break
                 }
             }
         } else if second is Robber {
@@ -529,9 +545,13 @@ func startsFight(first: Fighter, second: Fighter){
                 }
                 if first.hp == 0 {
                     print("Разбойник победил")
+                    print("Игра закончилась")
+                    break
                 }
                 if second.hp == 0 {
                     print("Маг победил")
+                    print("Игра закончилась")
+                    break
                 }
             }
         }
